@@ -1,0 +1,10 @@
+# 抓包数据：单文件 25 MB，只在本地做分析用，不纳入仓库
+*.har
+
+# 分析过程中的临时文件
+_hist.html
+_hist.json
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db

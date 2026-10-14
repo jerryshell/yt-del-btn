@@ -1,0 +1,6 @@
+# 统一按 LF 存储与检出（Windows 上 core.autocrlf=true 会把工作区写成 CRLF，
+# 导致格式化工具与 git 来回改写整个文件）
+* text=auto eol=lf
+
+# 抓包文件是数据，禁止任何行尾/编码转换（默认已被 .gitignore 排除）
+*.har binary

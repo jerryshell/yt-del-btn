@@ -1,0 +1,3 @@
+# oxfmt 默认读取 .prettierignore / .gitignore
+# HAR 是抓包数据（JSON，25 MB），不需要也不应该被格式化
+*.har
